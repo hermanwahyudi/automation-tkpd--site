@@ -13,5 +13,5 @@ urlpatterns = patterns('',
     url(r'^$', automation.views.index, name='index'),
     url(r'^db', automation.views.db, name='db'),
     url(r'^admin/', include(admin.site.urls)),
-
+    url(r'^login', automation.views.login, name='login'),
 )

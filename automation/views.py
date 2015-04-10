@@ -7,6 +7,8 @@ from .models import Greeting
 def index(request):
     return HttpResponse('<h1>Automation Testing Site - Tokopedia.com!</h1>')
 
+def login(request):
+	return render(request, 'login.html')
 
 def db(request):
 
