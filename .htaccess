@@ -1,4 +1,4 @@
-SetHandler python-program
+SetHandler None
 PythonHandler django.core.handlers.modpython
 SetEnv DJANGO_SETTINGS_MODULE gettingstarted.settings
 PythonDebug Off
